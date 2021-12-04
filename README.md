@@ -1,28 +1,20 @@
 # penskealt
 Offline web-based Meme generator with database capabilities.
-
 MKV files with embedded subtitle files (.srt) only.
 
 Requirements:
 PHP 5+, a database of some sort, ability to extract frames using FFMPEG, ability to use MKVCleaver to extract the .srt file.
-
 For Windows, it is recommended you install WAMP as this installs everything you need, download here: https://www.wampserver.com/en/
 
 Installation:
-For WAMP, go to the install directory, then "www", delete everything in there and replace with the files in this repository.
-
-In the "www" folder, create a "images" directory.
-
-You will need to create a "penskealt" database.
-If you have just installed WAMP, left click green "WAMP" icon in your taskbar then click "PhpMysqlAdmin".
-
-Login using the default user/pass of "root" and "" (blank, no password).
-
-Click the "New" button on the left hand side, above "information_scema".
-
-Type "penskealt" in the "Database Name" field and press "Create".
-
-Congrats, you're ready to horde funny jery pictures.
+For WAMP, go to the install directory, then "www", delete everything in there and replace with the files in this repository.<br>
+In the "www" folder, create a "images" directory.<br>
+You will need to create a "penskealt" database.<br>
+If you have just installed WAMP, left click green "WAMP" icon in your taskbar then click "PhpMysqlAdmin".<br>
+Login using the default user/pass of "root" and "" (blank, no password).<br>
+Click the "New" button on the left hand side, above "information_scema".<br>
+Type "penskealt" in the "Database Name" field and press "Create".<br>
+Congrats, you're ready to horde funny jery pictures.<br>
 
 Usage:
 Go to http://127.0.0.1
