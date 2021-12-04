@@ -17,7 +17,7 @@ Type "penskealt" in the "Database Name" field and press "Create".<br>
 Congrats, you're ready to horde funny jery pictures.
 
 Usage:<br>
-<b>SCRIPT INGESTION/FRAME FINDING:</b></br>
+<b>SCRIPT INGESTION/FRAME GENERATION:</b></br>
 Go to http://127.0.0.1<br>
 This is the busted-ass web 1.0 interface that I cludged together.
 
