@@ -46,6 +46,7 @@ Repeat this for every episode for every show (have fun).
 Use this to load the episode file (need to be MKV format) and extract the subtitle file.
 
 5. Go back to http://127.0.0.1<br>
+Go to the "Script/File" section.<br>
 Select the show the episode is related to using the dropdown menu<br>
 Select the .srt file you just extracted using "Choose File"<br>
 It will automatically load the .srt and find the related frames, you can double check things line up by scrolling down and manually checking.<br>
