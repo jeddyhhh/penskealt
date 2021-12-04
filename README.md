@@ -59,5 +59,8 @@ To finalise, click the "Scrape .srt" button at the top of the page.
 3. You can change the text of the image using the textbox next to the image, limited to 4 lines.</br>
 4. You can right-click copy/save this image, the text will be retain so you can paste it into photoshop/straight to facebook etc.
 
+KNOWN BUGS:<br>
+If you try to load "http://127.0.0.1/search.php" directly, it will break. Reload http://127.0.0.1 and don't do that, search using the text box on the main page only.
+
 
 
