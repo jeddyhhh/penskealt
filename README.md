@@ -16,8 +16,8 @@ Click the "New" button on the left hand side, above "information_scema".<br>
 Type "penskealt" in the "Database Name" field and press "Create".<br>
 Congrats, you're ready to horde funny jery pictures.
 
-Usage:<br>
-<b>SCRIPT INGESTION/FRAME GENERATION:</b><br><br>
+Usage:<br><br>
+<b>SCRIPT INGESTION/FRAME GENERATION:</b><br>
 Go to http://127.0.0.1<br>
 This is the busted-ass web 1.0 interface that I cludged together.
 
@@ -53,7 +53,7 @@ To finalise, click the "Scrape .srt" button at the top of the page.
 
 6. Repeat for process for each show and/or episode. I'm currently looking for ways to make this more automated.
 
-<b>MEME GENERATION</b></br><br>
+<b>MEME GENERATION</b></br>
 1. The last section in the "Seatrch by quote" area, select a show using the dropdown menu.</br>
 2. Type in a quote from the show you've just scraped, it will find those frames and display them with the original script text, scroll down to see more.</br>
 3. You can change the text of the image using the textbox next to the image, limited to 4 lines.</br>
