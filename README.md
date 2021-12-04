@@ -14,9 +14,9 @@ If you have just installed WAMP, left click green "WAMP" icon in your taskbar th
 Login using the default user/pass of "root" and "" (blank, no password).<br>
 Click the "New" button on the left hand side, above "information_scema".<br>
 Type "penskealt" in the "Database Name" field and press "Create".<br>
-Congrats, you're ready to horde funny jery pictures.
+Congrats, you're ready to horde funny jery pictures.<br>
 
-Usage:<br><br>
+Usage:<br>
 <b>SCRIPT INGESTION/FRAME GENERATION:</b><br>
 Go to http://127.0.0.1<br>
 This is the busted-ass web 1.0 interface that I cludged together.
