@@ -58,9 +58,9 @@ function addTextToImage(imagePath, text, number) {
 		context.font = '24px Sans-serif';
 		context.strokeStyle = 'black';
 		context.lineWidth = 4;
-		context.strokeText(text, 320, 335);
+		context.strokeText(text, 320, 330);
 		context.fillStyle = 'white';
-		context.fillText(text, 320, 335);
+		context.fillText(text, 320, 330);
     };
 }
 

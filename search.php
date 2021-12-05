@@ -8,14 +8,22 @@ $timezone = date_default_timezone_set("Australia/Melbourne");
 
 $con = mysqli_connect("127.0.0.1", "root", "", "penskealt");
 if(isset($_GET['term'])){
+  //$term = urldecode($_GET['term']);
+  //$term = mysqli_real_escape_string($con, $_GET['term']);
+  //$term = htmlspecialchars($_GET['term']);
+  //$term = urldecode($_GET['term']);
   $term = urldecode($_GET['term']);
+  $term = str_replace("'", "&#39;", $term);
+  //$term = mysqli_real_escape_string($con, $_GET['term']);
+  echo $term;
+  
   $show = urldecode($_GET['show']);
 } else {
   $term = "";
   $show = "";
 }
 
-$imageQuery = mysqli_query($con, "SELECT * FROM $show WHERE locate('$term',text)>0");
+$imageQuery = mysqli_query($con, "SELECT * FROM $show WHERE locate('$term',text)>0 ORDER BY startTime ASC");
 
 while($row = mysqli_fetch_array($imageQuery)){
 	$urlArray = array();
