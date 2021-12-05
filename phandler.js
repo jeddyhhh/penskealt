@@ -35,7 +35,7 @@ document.getElementById('myfile').onchange = function() {
 		for(var z = 0; z < tD; z++){
 			frameArray.push(tD + (z * 2));
 		}
-	  } else if (sTS > 2) {
+	  } else if (sTS >= 2) {
 		frameArray.push(sTS * 2);
 		for(var b = 1; b < tD * 2; b++){
 			frameArray.push(((sTS * 2) + (b)));
@@ -89,7 +89,7 @@ $("#submitScript").click(function(){
 			  //alert(message);
 		  },
 		  error: function(data){
-			alert("This didn't work");
+			alert("This didn't work " + data);
 		  }
 		});
 		

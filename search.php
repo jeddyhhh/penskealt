@@ -23,7 +23,7 @@ if(isset($_GET['term'])){
   $show = "";
 }
 
-$imageQuery = mysqli_query($con, "SELECT * FROM $show WHERE locate('$term',text)>0 ORDER BY startTime ASC");
+$imageQuery = mysqli_query($con, "SELECT * FROM $show WHERE locate('$term',text)>0 ORDER BY season ASC, startTime ASC");
 
 while($row = mysqli_fetch_array($imageQuery)){
 	$urlArray = array();
