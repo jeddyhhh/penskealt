@@ -55,7 +55,7 @@ To finalise, click the "Scrape .srt" button at the top of the page.
 
 6. Repeat for process for each show and/or episode. I'm currently looking for ways to make this more automated.
 
-<b>MEME GENERATION</b></br>
+<b>MEME GENERATION:</b></br>
 1. The last section in the "Search by quote" area, select a show using the dropdown menu.</br>
 2. Type in a quote from the show you've just scraped, it will find those frames and display them with the original script text, scroll down to see more.</br>
 3. You can change the text of the image using the textbox next to the image, limited to 4 lines.</br>
