@@ -8,7 +8,7 @@ For Windows, it is recommended you install WAMP as this installs everything you 
 
 Installation:<br>
 Make sure your web server/WAMP is running.<br>
-For WAMP, go to the install directory, then "www", delete everything in there and replace with the files in this repository.<br>
+Then for WAMP, go to the install directory, then "www", delete everything in there and replace with the files in this repository.<br>
 In the "www" folder, create a "images" directory.<br><br>
 You will need to create a "penskealt" database.<br>
 If you have just installed WAMP, left click green "WAMP" icon in your taskbar then click "PhpMysqlAdmin".<br>
