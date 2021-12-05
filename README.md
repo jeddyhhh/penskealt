@@ -3,7 +3,7 @@ Offline web-based Meme generator with database capabilities.<br>
 MKV files with embedded subtitle files (.srt) only.
 
 Requirements:<br>
-PHP 5+, a database of some sort, ability to extract frames using FFMPEG, ability to use MKVCleaver to extract the .srt file.<br>
+A webserver, PHP 5+, a database of some sort, ability to extract frames using FFMPEG, ability to use MKVCleaver to extract the .srt file.<br>
 For Windows, it is recommended you install WAMP as this installs everything you need, download here: https://www.wampserver.com/en/
 
 Installation:<br>
