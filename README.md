@@ -1,6 +1,6 @@
 # penskealt
 Offline web-based Meme generator with database capabilities.<br>
-MKV files with embedded subtitle files (.srt) only.
+MKV/MP4 (really anything that can be split with FFMPEG) file and associated subtitle (.srt) file required.
 
 Requirements:<br>
 A webserver, PHP 5+, a database of some sort, ability to extract frames/subtitles using FFMPEG<br>
