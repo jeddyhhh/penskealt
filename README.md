@@ -7,6 +7,7 @@ A webserver, PHP 5+, a database of some sort, ability to extract frames using FF
 For Windows, it is recommended you install WAMP as this installs everything you need, download here: https://www.wampserver.com/en/
 
 Installation:<br>
+Make sure your web server/WAMP is running.<br>
 For WAMP, go to the install directory, then "www", delete everything in there and replace with the files in this repository.<br>
 In the "www" folder, create a "images" directory.<br><br>
 You will need to create a "penskealt" database.<br>
