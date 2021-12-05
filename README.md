@@ -3,7 +3,7 @@ Offline web-based Meme generator with database capabilities.<br>
 MKV files with embedded subtitle files (.srt) only.
 
 Requirements:<br>
-A webserver, PHP 5+, a database of some sort, ability to extract frames using FFMPEG, ability to use MKVCleaver to extract the .srt file.<br>
+A webserver, PHP 5+, a database of some sort, ability to extract frames/subtitles using FFMPEG<br>
 For Windows, it is recommended you install WAMP as this installs everything you need, download here: https://www.wampserver.com/en/
 
 Installation:<br>
@@ -43,8 +43,9 @@ Go into that folder and create a folder for the episode of that season eg; 01 (f
 Place the thosands of frames you've just generated into this folder eg "{root}/images/seinfeld/01/01/1.jpg 2.jpg etc..."<br>
 Repeat this for every episode for every show (have fun).
 
-4. Download MKVCleaver https://www.videohelp.com/software/MKVcleaver<br>
-Use this to load the episode file (need to be MKV format) and extract the subtitle file.
+4. Extract .srt with FFMPEG with this command<br>
+ffmpeg -i Seinfeld.S01E01.mkv -map 0:s:0 S01E01.srt<br>
+Subs file name must be formatted in SXXEXX format, eg; "S01E01.srt"
 
 5. Go back to http://127.0.0.1<br>
 Go to the "Script/File" section.<br>
