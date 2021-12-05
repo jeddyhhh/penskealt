@@ -24,7 +24,8 @@ This is the busted-ass web 1.0 interface that I cludged together.
 
 The process of making this work and not explode is this order of actions.<br>
 1. Create a new show catagory, at the top of the page type in a show name eg; "seinfeld", keep it lowercase and replace spaces with underscores.<br>
-You are not limited to seinfeld, literally any show that you have the video files and subtitle (.srt) for can be added.
+You are not limited to seinfeld, literally any show that you have the video files and subtitle (.srt) for can be added.<br>
+Movies can be added, just treat them as S01E01 of a show catagory, the rest of the process is the same.
 
 2. You will need to manually extract video frames using FFMPEG, download from here: http://www.ffmpeg.org/<br>
 penskealt is designed to use 2 frames per second intervals, the FFMPEG command for 23.97fps video is:<br>
