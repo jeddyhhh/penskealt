@@ -2,12 +2,20 @@ textarea {
    resize: none;
    width: 100%;
 }
+html, body {
+    height:100%;
+}
 #mainContent{
 	width:100%;
-	max-width:100%;
 	display: block;
+	background-color: aquamarine;
 }
 .gridViewItem{
-	max-width: 360px;
+	width: 100%;
 	display: flex;
+	overflow: auto;
+}
+.canvasDiv{
+	padding: 5px;
+	box-sizing: border-box;
 }
