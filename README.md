@@ -39,7 +39,7 @@ It is recommended you use a new folder to do this in, so the frames don't invade
 3. In the root directory of you webserver, go to your "images" folder.<br>
 Create a folder exactly the same name as the show catagory you've just create in step 1 eg; "seinfeld"<br>
 Go into that folder and create a folder for the season of that show eg; "01" (for season 1)<br>
-Go into that folder and create a folder for the episode of that season eg; 01 (for episode 1)<br>
+Go into that folder and create a folder for the episode of that season eg; "01" (for episode 1)<br>
 Place the thosands of frames you've just generated into this folder eg "{root}/images/seinfeld/01/01/1.jpg 2.jpg etc..."<br>
 Repeat this for every episode for every show (have fun).
 
