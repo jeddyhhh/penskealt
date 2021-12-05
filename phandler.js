@@ -37,8 +37,8 @@ document.getElementById('myfile').onchange = function() {
 		}
 	  } else if (sTS > 2) {
 		frameArray.push(sTS * 2);
-		for(var b = 1; b < tD; b++){
-			frameArray.push(((sTS * 2) + (b * 2)));
+		for(var b = 1; b < tD * 2; b++){
+			frameArray.push(((sTS * 2) + (b)));
 		}
 		frameArray.push(eTS * 2);
 	  }
