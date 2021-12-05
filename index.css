@@ -1,0 +1,13 @@
+textarea {
+   resize: none;
+   width: 100%;
+}
+#mainContent{
+	width:100%;
+	max-width:100%;
+	display: block;
+}
+.gridViewItem{
+	max-width: 360px;
+	display: flex;
+}

@@ -16,9 +16,7 @@ if(isset($_GET['term'])){
   $show = "";
 }
 
-$numberOfResults = 0;
-
-$imageQuery = mysqli_query($con, "SELECT * FROM $show WHERE locate('$term',text)>0 LIMIT 50");
+$imageQuery = mysqli_query($con, "SELECT * FROM $show WHERE locate('$term',text)>0");
 
 while($row = mysqli_fetch_array($imageQuery)){
 	$urlArray = array();
@@ -30,16 +28,19 @@ while($row = mysqli_fetch_array($imageQuery)){
 	$arrayCount = count($imageArray);
 	$rootDir = "/images/".$show."/0".$row['season']."/0".$row['episode']."/";
 	for($a = 0; $a < $arrayCount; $a++){
-		//array_push($urlArray, "<img src='".$rootDir.$imageArray[$a].".jpg' width='480' height='280'>");
 		if($imageArray[0] != $imageArray[1]){
-			array_push($canvasArray, "<canvas id='canvas".$imageArray[$a].$randomNumber."' width='640' height='360'></canvas><script src='replace.js'></script><script>var str = '".$cleanText."';var replace = str.replace(/&#39;/g, \"'\");addTextToImage('http://127.0.0.1".$rootDir.$imageArray[$a].".jpg', replace, '".$imageArray[$a].$randomNumber."');</script><textarea id='customText' rows='4' cols='60' onkeyup='replaceText(".$imageArray[$a].$randomNumber.", this.value, \"http://127.0.0.1".$rootDir.$imageArray[$a].".jpg\")'>".$cleanText."</textarea>");
+			array_push($canvasArray, "<div class='canvasDiv'><canvas id='canvas".$imageArray[$a].$randomNumber."' width='640' height='360'></canvas><script src='replace.js'></script><script>var str = '".$cleanText."';var replace = str.replace(/&#39;/g, \"'\");addTextToImage('http://127.0.0.1".$rootDir.$imageArray[$a].".jpg', replace, '".$imageArray[$a].$randomNumber."');</script><br><textarea id='customText' rows='4' cols='60' onkeyup='replaceText(".$imageArray[$a].$randomNumber.", this.value, \"http://127.0.0.1".$rootDir.$imageArray[$a].".jpg\")'>".$cleanText."</textarea></div>");
 		}
-		$numberOfResults = $numberOfResults + 1;
 	}
 	
 	if($imageArray[0] != $imageArray[1]){
-		echo "<div class='gridViewItem' title='". $cleanText ."'>".implode(",",$canvasArray)."</div>";
-	};
+		echo "<div class='gridViewItem' title='". $cleanText ."'>";
+		foreach ($canvasArray as $output)
+		{
+			echo $output;
+		}
+		echo "</div><br>";
+	}
 };
 
 ?>
